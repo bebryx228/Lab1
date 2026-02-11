@@ -23,6 +23,7 @@ int main()
     //std::cin >> a >> b ;
     c = shirEuklid(a , b , x ,y);
     std::cout << c << "\t" << x << "\t" << y << std::endl;
-    std::cout << "Резников Герман" << std::endl;
+    std::cout << "Резников Герман Евгеньевич 020303-АИСа-о25" << std::endl;
     return 0;
 }
+
