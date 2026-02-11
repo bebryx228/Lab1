@@ -18,12 +18,14 @@ int shirEuklid( int a , int b , int &x , int &y)
 }
 int main()
 {
-    int a = 3  , b = 2 , c , x , y;
-    //std::cout << "Введите а и b";
-    //std::cin >> a >> b ;
+    int a , b , c , x , y;
+    std::cout << "Введите а и b";
+    std::cin >> a >> b ;
     c = shirEuklid(a , b , x ,y);
-    std::cout << c << "\t" << x << "\t" << y << std::endl;
+    std::cout << "Входные данные: " << a << " " << b << std::endl;
+    std::cout << "Выходные данные: " << c << " " << x << " " << y << std::endl;
     std::cout << "Резников Герман Евгеньевич 020303-АИСа-о25" << std::endl;
     return 0;
 }
+
 
